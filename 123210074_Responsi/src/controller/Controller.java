@@ -71,7 +71,7 @@ public class Controller {
                     
                     data = model.readDataUser();
                     view.table.setModel(new DefaultTableModel(data, new String[]{
-                        "Username", "Password", "Role"
+                        "Judul", "Alur", "Penokohan", "Akting", "Nilai"
                     }) {
                         boolean[] canEdit = new boolean[]{
                             false, false, false, false
