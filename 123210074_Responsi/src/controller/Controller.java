@@ -23,7 +23,7 @@ public class Controller {
     public Controller (Model model, View view){
         this.model = model;
         this.view = view;
-        data = model.readDataUser();
+        data = model.readDataFilm();
         
         view.table.setModel(new DefaultTableModel(data, new String[]{
             "Judul", "Alur", "Penokohan", "Akting", "Nilai"
