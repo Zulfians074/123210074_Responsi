@@ -69,7 +69,7 @@ public class Controller {
                 
                     marker = "";
                     
-                    data = model.readDataUser();
+                    data = model.readDataFilm();
                     view.table.setModel(new DefaultTableModel(data, new String[]{
                         "Judul", "Alur", "Penokohan", "Akting", "Nilai"
                     }) {
